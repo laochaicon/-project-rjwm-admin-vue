@@ -1,4 +1,4 @@
-# 瑞吉外卖
+# 云咚外卖
 
 ## 1 pc 端需求概述
 
@@ -7,7 +7,7 @@
 #### 版本迭代
 
 v1.2
-开发人员：司文强；
+开发人员：
 迭代内容：
 员工管理：加入修改时间字段，状态正常文案改为启用，增加查询按钮
 分类管理：搜索条件增加名称和类型，加入状态字段，增加启用，禁用功能
@@ -15,7 +15,7 @@ v1.2
 套餐管理：搜索条件增加套餐分类，售卖状态，增加查询按钮，新增菜品默认为套餐状态
 其他：根据设计稿调整了页面的部分样式以及交互，修复了这 4 个模块其余的 bug 和问题
 v1.3
-开发人员：司文强；
+开发人员：
 迭代内容：
 订单管理：
 新增订单状态切换 tab
@@ -33,7 +33,7 @@ v1.3
 
 ## 资源
 
-- git http://git.itcast.cn/itcast_huangxu/project-rjwm-pc-vue-java.git
+- git https://gitee.com/laochaicon/project-rjwm-admin-vue-ts.git
 - 预览 暂无
 
 ## 2 技术选型
@@ -143,52 +143,3 @@ yarn build/npm run build
 yarn build:uat/npm run build:uat
 ```
 
-## 5 相关资料
-
-前端
-瑞吉外卖 - 后台：
-git 分支 ：http://git.itcast.cn/development/project-rjwm-admin-vue-ts/tree/master
-
-pip 分支 1.0 的上线版本（22.4 修复套餐管理 Bug） 前端负责人： 李小刚
-
-master 分支 2.0 的教学版本（大改） - 前端负责人： 司文强
-
-瑞吉外卖 - 微信小程序：
-git 分支：http://git.itcast.cn/development/project-rjwm-weixin-uniapp
-
-master（pip 线上版本，22.4 修复总金额计算问题）：pip 线上版本 前端负责人： 娄江华
-
-pudateV2.0： 前端负责人： 娄江华
-
-接口 ：Yapi
-后台 V2.0: https://mock.boxuegu.com/project/3059/interface/api
-
-小程序 V2.0 https://mock.boxuegu.com/project/3109/interface/api
-
-部署： 运维 ：任昶丞
-pip: http://rjwm-java.itheima.net
-
-master: (22.4 测试环境) http://rjwm-java-test.itheima.net/
-
-后端：赵庆轩、张家乐
-git：（对应 master 分支的-最新的代码）http://git.itcast.cn/java/reggie_parent
-
-产品： 魏帅明
-管理后台
-
-原型地址：https://codesign.qq.com/s/zm5q0XPXed0RBb6/preview/prototype/nRMdGZQOpa9Xk8x
-
-密码: K0RR
-
-小程序端
-
-原型地址：https://codesign.qq.com/s/OD8r0BreVr0RXkg/P4VlZMeeylRZq6w/inspect
-
-设计：
-管理后台端 - 王静
-
-https://codesign.qq.com/s/zm5q0XPXed0RBb6
-
-小程序 - 惠转转
-
-https://codesign.qq.com/s/OD8r0BreVr0RXkg
